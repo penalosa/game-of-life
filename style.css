@@ -1,0 +1,9 @@
+html,
+body {
+  height: 100%;
+  background: #1a202c;
+  margin: 0px;
+}
+#gof canvas {
+  display: block;
+}
