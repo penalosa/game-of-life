@@ -82,5 +82,5 @@ document.addEventListener("mousedown", (e) => {
     );
 });
 document.addEventListener("keydown", (e) => {
-  if (e.key === "Enter") start = true;
+  if (e.key === " ") start = !start;
 });
