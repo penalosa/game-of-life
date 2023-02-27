@@ -1,0 +1,8 @@
+{
+  "name": "my-worker",
+  "compatibility_date": "2023-02-26",
+  "main": "node_modules/worker-functions/generated-worker/index.ts",
+  "build": {
+    "command": "pnpm exec worker-functions"
+  }
+}
