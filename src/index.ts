@@ -1,5 +1,5 @@
 import { WorkerClient } from "worker-functions";
-const w = WorkerClient("http://localhost:8787");
+const w = WorkerClient("https://game-of-life.s.workers.dev");
 
 function updateGameCells(
   changes: [number, number, boolean][],
